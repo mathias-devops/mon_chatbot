@@ -1,18 +1,28 @@
-# Environnement virtuel
+# Environnements virtuels
 mon_botrasa/
+venv/
+.env/
 
-# Cache Rasa
-.rasa/
+# Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
 
-# Modèles Rasa (optionnel si tu veux les entraîner à nouveau)
-models/
+# Rasa
+.rasa/cache/
+.rasa/models/
+.rasa/tmp/
 
-# Logs et fichiers temporaires
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
 *.log
-*.tmp
 
-# Jetons et secrets
-*.envmon_botrasa/
+# IDE
+.vscode/
+.idea/
