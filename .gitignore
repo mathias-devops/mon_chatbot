@@ -1,28 +1,20 @@
-# Environnements virtuels
+# Environnement virtuel
 mon_botrasa/
-venv/
-.env/
+
+# Dossiers temporaires de Rasa
+.rasa/cache/
+.rasa/models/
+.rasa/__pycache__/
 
 # Python
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*.pyo
+*.pyd
 
-# Rasa
-.rasa/cache/
-.rasa/models/
-.rasa/tmp/
+# VSCode
+.vscode/
 
 # Fichiers système
 .DS_Store
 Thumbs.db
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Logs
-*.log
-
-# IDE
-.vscode/
-.idea/
