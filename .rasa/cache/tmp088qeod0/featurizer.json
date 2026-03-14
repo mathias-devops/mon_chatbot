@@ -1,0 +1,70 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "affirm": 0,
+        "au_revoir": 1,
+        "back": 2,
+        "demander_contact_direct": 3,
+        "demander_prix": 4,
+        "demander_rdv": 5,
+        "deny": 6,
+        "en_savoir_plus_sur_nos_services": 7,
+        "nlu_fallback": 8,
+        "out_of_scope": 9,
+        "remercier": 10,
+        "restart": 11,
+        "saluer": 12,
+        "session_start": 13
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_affirmation": 13,
+        "utter_ask_nom": 14,
+        "utter_ask_telephone": 15,
+        "utter_au_revoir": 16,
+        "utter_autre_question": 17,
+        "utter_contact_direct": 18,
+        "utter_happy": 19,
+        "utter_negation": 20,
+        "utter_prix": 21,
+        "utter_proposer_rdv": 22,
+        "utter_remercier": 23,
+        "utter_saluer": 24,
+        "utter_services": 25,
+        "utter_submit": 26,
+        "rdv_form": 27
+      },
+      "entities": {
+        "contexte_question": 0,
+        "nom": 1,
+        "telephone": 2
+      },
+      "slots": {
+        "nom_0": 0,
+        "telephone_0": 1,
+        "contexte_question_0": 2
+      },
+      "active_loop": {
+        "rdv_form": 0
+      }
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

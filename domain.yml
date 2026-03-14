@@ -1,0 +1,312 @@
+version: "3.1"
+
+intents:
+  - saluer
+  - demander_services
+  - demander_prix
+  - demander_chatbot
+  - prendre_rendez_vous
+  - au_revoir
+  - nous_contacter
+  - demander_fonctionnalites
+  - demander_support
+  - heureux
+  - remercier
+  - demander_demo
+  - demander_delai
+  - demander_integration_whatsapp
+  - demander_integration_site
+  - aide
+  - autres_questions
+  - question_termine
+
+responses:
+
+  utter_saluer:
+    - text: |
+        Bonjour 👋 et bienvenue !
+
+        Je suis l’assistant virtuel de **BotRoom** 🤖.  
+        Mon rôle est de répondre à vos questions et de vous aider à découvrir comment nos **chatbots intelligents peuvent automatiser votre relation client et vous faire gagner du temps**.
+
+        Si une question nécessite l'intervention d'un conseiller humain, je pourrai également vous mettre en contact avec notre équipe 😊
+
+        Comment puis-je vous aider aujourd’hui ?
+      buttons:
+        - title: "📊 Découvrir nos services"
+          payload: "/demander_services"
+        - title: "💰 Voir les prix"
+          payload: "/demander_prix"
+        - title: "🤖 Commander un chatbot"
+          payload: "/demander_chatbot"
+        - title: "📅 Prendre rendez-vous"
+          payload: "/prendre_rendez_vous"
+
+
+  utter_services:
+    - text: |
+        Excellente question 👍
+
+        Chez **BotRoom**, nous aidons les entreprises à **automatiser leur communication avec leurs clients grâce à des chatbots intelligents**.
+
+        Voici quelques solutions que nous proposons :
+
+        🤖 **Chatbots pour entreprises**  
+        Automatisez les réponses aux questions fréquentes de vos clients 24h/24.
+
+        ⚙️ **Automatisation des tâches**  
+        Répondez automatiquement aux prospects, capturez des leads et qualifiez vos clients.
+
+        💬 **Chatbots Messenger & WhatsApp**  
+        Gérez vos conversations clients directement sur les plateformes qu’ils utilisent déjà.
+
+        🧠 **Intégration d'intelligence artificielle**  
+        Des bots capables de comprendre les questions et de répondre intelligemment.
+
+        Que souhaitez-vous faire maintenant ?
+      buttons:
+        - title: "💰 Voir les prix"
+          payload: "/demander_prix"
+        - title: "🎥 Voir une démo"
+          payload: "/demander_demo"
+        - title: "📞 Contacter un conseiller"
+          payload: "/nous_contacter"
+
+
+  utter_prix:
+    - text: |
+        Très bonne question 💰
+
+        Le prix d’un chatbot dépend principalement de plusieurs facteurs :
+
+        ✔ le type de chatbot souhaité  
+        ✔ les plateformes à intégrer (site web, Messenger, WhatsApp...)  
+        ✔ le niveau d’automatisation  
+        ✔ les fonctionnalités avancées demandées
+
+        Pour vous donner **un prix précis adapté à votre projet**, le mieux est d’en discuter rapidement avec notre équipe.
+
+        👉 Contactez-nous directement sur WhatsApp :
+        https://wa.me/2290140861213
+
+        Nous serons ravis de vous répondre rapidement 😊
+      buttons:
+        - title: "🎥 Demander une démo"
+          payload: "/demander_demo"
+        - title: "🤖 Commander un chatbot"
+          payload: "/demander_chatbot"
+        - title: "📅 Prendre rendez-vous"
+          payload: "/prendre_rendez_vous"
+
+
+  utter_demander_chatbot:
+    - text: |
+        Excellente décision 🚀
+
+        Nous allons vous aider à créer un **chatbot intelligent capable de répondre automatiquement à vos clients 24h/24 et 7j/7**.
+
+        Avant de commencer, nous avons simplement besoin de quelques informations sur votre projet afin de vous proposer la solution la plus adaptée.
+
+        👉 Merci de remplir ce court formulaire :
+        https://forms.gle/cAVbQ9gVCgpQ57Ta9
+
+        Dès réception, notre équipe analysera votre demande et reviendra vers vous rapidement.
+
+
+  utter_prendre_rendez_vous:
+    - text: |
+        Parfait 👍
+
+        Vous pouvez réserver un **rendez-vous gratuit avec notre équipe** afin de discuter de votre projet de chatbot et voir comment nous pouvons vous aider.
+
+        📅 Choisissez simplement votre créneau disponible ici :
+        https://calendly.com/botroom/30min
+
+        Un membre de notre équipe vous contactera à l’heure choisie.
+
+
+  utter_au_revoir:
+    - text: |
+        Merci beaucoup pour votre visite 😊
+
+        Si vous avez d’autres questions concernant **les chatbots, l'automatisation ou l’intelligence artificielle pour votre entreprise**, notre équipe reste disponible pour vous accompagner.
+
+        À très bientôt 👋
+
+
+  utter_nous_contacter:
+    - text: |
+        Bien sûr 😊
+
+        Vous pouvez contacter directement notre équipe sur WhatsApp pour poser toutes vos questions ou discuter de votre projet.
+
+        📞 Cliquez ici pour démarrer la conversation :
+        https://wa.me/2290140861213
+
+        Nous vous répondrons dans les plus brefs délais.
+
+
+  utter_demander_fonctionnalites:
+    - text: |
+        Nos chatbots peuvent intégrer de nombreuses fonctionnalités avancées 🤖
+
+        Par exemple :
+
+        ✔ réponses automatiques aux clients  
+        ✔ capture de prospects (leads)  
+        ✔ prise de rendez-vous automatique  
+        ✔ intégration WhatsApp / Messenger / site web  
+        ✔ qualification des clients  
+        ✔ automatisation du support client  
+
+        Si vous souhaitez découvrir **toutes les possibilités pour votre entreprise**, notre équipe peut vous expliquer cela en détail.
+
+        👉 Contactez-nous ici :
+        https://wa.me/2290140861213
+
+
+  utter_demander_support:
+    - text: |
+        Pas de souci 👍
+
+        Si vous avez besoin d’une **assistance technique ou d’un support concernant votre chatbot**, notre équipe peut vous aider rapidement.
+
+        👉 Contactez directement notre support via WhatsApp :
+        https://wa.me/2290140861213
+
+        Nous ferons le nécessaire pour résoudre votre problème.
+
+
+  utter_heureux:
+    - text: |
+        C’est un plaisir de pouvoir vous aider 😊
+
+        Notre objectif est de rendre l’automatisation simple et accessible pour les entreprises.
+
+        N'hésitez pas si vous avez d'autres questions.
+
+
+  utter_remercier:
+    - text: |
+        Avec plaisir 😊
+
+        Je suis là pour vous aider à découvrir comment **les chatbots peuvent simplifier la gestion de vos clients et améliorer votre activité**.
+
+        Si vous avez une autre question, je vous écoute.
+
+
+  utter_demo:
+    - text: |
+        Bonne idée 🎥
+
+        Une **démonstration est le meilleur moyen de voir concrètement comment fonctionne un chatbot professionnel**.
+
+        Pendant la démo, nous vous montrerons :
+
+        ✔ comment le bot répond aux clients  
+        ✔ comment il capture les prospects  
+        ✔ comment il automatise les tâches  
+
+        📅 Réservez votre démonstration gratuite ici :
+        https://calendly.com/botroom/30min
+
+
+  utter_delai:
+    - text: |
+        Bonne question ⏱️
+
+        Le délai de création d’un chatbot dépend principalement de la complexité du projet.
+
+        En général :
+
+        ⚡ chatbot simple : **3 à 5 jours**  
+        ⚙️ chatbot avancé : **5 à 7 jours**
+
+        Notre objectif est de vous livrer **un chatbot performant et prêt à être utilisé rapidement**.
+      buttons:
+        - title: "🤖 Commander un chatbot"
+          payload: "/demander_chatbot"
+        - title: "📅 Prendre rendez-vous"
+          payload: "/prendre_rendez_vous"
+
+
+  utter_integration_whatsapp:
+    - text: |
+        Oui absolument 📱
+
+        Nous pouvons intégrer votre chatbot directement sur **WhatsApp, Messenger ou d’autres plateformes de messagerie**.
+
+        Cela vous permet de :
+
+        ✔ répondre automatiquement aux clients  
+        ✔ capturer des prospects  
+        ✔ réduire le temps de réponse  
+        ✔ automatiser votre support client
+
+        C’est une excellente solution pour les entreprises qui reçoivent beaucoup de messages.
+      buttons:
+        - title: "🤖 Commander un chatbot"
+          payload: "/demander_chatbot"
+        - title: "📅 Prendre rendez-vous"
+          payload: "/prendre_rendez_vous"
+
+
+  utter_integration_site:
+    - text: |
+        Bien sûr 🌐
+
+        Nous pouvons intégrer votre chatbot directement sur votre **site web** afin d’accueillir vos visiteurs automatiquement.
+
+        Le chatbot pourra par exemple :
+
+        ✔ répondre aux questions des visiteurs  
+        ✔ guider les utilisateurs  
+        ✔ collecter des prospects  
+        ✔ prendre des rendez-vous
+
+        C’est un excellent moyen d’**augmenter vos conversions et améliorer l’expérience client**.
+      buttons:
+        - title: "🤖 Commander un chatbot"
+          payload: "/demander_chatbot"
+        - title: "📅 Prendre rendez-vous"
+          payload: "/prendre_rendez_vous"
+
+
+  utter_aide:
+    - text: |
+        Je peux vous aider pour plusieurs choses 😊
+
+        Par exemple :
+
+        ✔ découvrir nos services  
+        ✔ voir les prix  
+        ✔ demander une démonstration  
+        ✔ contacter un conseiller
+
+        Choisissez simplement une option ci-dessous 👇
+      buttons:
+        - title: "🚀 Voir les services"
+          payload: "/demander_services"
+        - title: "💰 Voir les prix"
+          payload: "/demander_prix"
+        - title: "🎥 Voir une démo"
+          payload: "/demander_demo"
+        - title: "📞 Contacter un conseiller"
+          payload: "/nous_contacter"
+
+
+  utter_autres_questions:
+    - text: |
+        Bien sûr 😊
+
+        Je vous écoute.  
+        Quelle est votre question ?
+
+
+  utter_question_termine:
+    - text: |
+        Parfait 😊
+
+        Si vous avez d'autres questions à l’avenir concernant **les chatbots ou l’automatisation**, n’hésitez pas à revenir vers nous.
+
+        Passez une excellente journée 👋

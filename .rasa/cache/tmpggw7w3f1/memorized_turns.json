@@ -1,0 +1,20 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTU3MS8ltSi+oCizorY2FgDTPR7Q": "utter_prix",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTU3MS8ltSi+oCizopaAWaUlJTCVhAyKBQCY8jrZ": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTU3MS8ltSi+oCizopaAWaUlJTCVlBlErKOSMxJLkvJLamtjAWnmWRo=": "utter_demander_chatbot",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTU3MS8ltSi+oCizopaAWaUlJTCVlBlErKOSMxJLkvJLiHMXhi4izI0FAN8uewY=": "chatbot_form",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTU3MS8ltSi+oCizopaAWaUlJTCVlBlErKOSMxJLkvJLiHMXhi6KzYUqi0/LL8olxrRYAOL3mNM=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohL7+0OD45Py+5JLWotjYWALZgHoA=": "utter_nous_concter",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohL7+0OD45Py+5JLWoloBRpSVARfEoOgiYFwsAFNc9iA==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohL7+0OD45Py+5JLWoloBRpSVARfEoOigyj4DTgDrzUopS40FUalV8GdDk2tpYANLKXUg=": "utter_prendre_rendez_vous",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohL7+0OD45Py+5JLWoloBRpSVARfEoOigyj4DTgDrzUopS40FUalV8GdBk4lyITSNxpscCAM+BgjI=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdGg/Um59ZVFsbCwBb5h06": "utter_au_revoir",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdGg/Um59ZVEvAnNKSktSieIRyfCbFAgDsfzm2": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNLWotjYWAAYLG/o=": "utter_saluer",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNLWoloAhpSUlqUXxULU4zYgFAOsnNfY=": "action_listen",
+    "eJydjsEJwCAQBFuxgFRgKyGI6D4EvYS704/YewzxH8hvF4bZ3fvYTL8Yzfmg6SRr+hsc+QJrVslJFDTZKuDJJJpVrRGfK3h8SKoq2C32p+PjSETxFJ8VcEsBMsZxA4+EVLY=": "utter_services",
+    "eJydjkEKgCAURK/iATqBV4kQ0VkI9Yvv141494xsrbSbgcebWUtdVLkY2Vgn4SStyhsM2QNa9bKHKKDGpghuTKBWRato9wSuA0kSAZvO/nQMjngclvyzAs7BIU5++ugZ4XYDTC90AQ==": "action_listen"
+  }
+}

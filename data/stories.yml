@@ -1,0 +1,114 @@
+version: "3.1"
+
+stories:
+
+- story: salutation puis services
+  steps:
+    - intent: saluer
+    - action: utter_saluer
+    - intent: demander_services
+    - action: utter_services
+
+- story: salutation puis prix
+  steps:
+    - intent: saluer
+    - action: utter_saluer
+    - intent: demander_prix
+    - action: utter_prix
+
+- story: demander services puis prix
+  steps:
+    - intent: demander_services
+    - action: utter_services
+    - intent: demander_prix
+    - action: utter_prix
+
+- story: demander chatbot
+  steps:
+    - intent: demander_chatbot
+    - action: utter_demander_chatbot
+
+- story: demander services puis chatbot
+  steps:
+    - intent: demander_services
+    - action: utter_services
+    - intent: demander_chatbot
+    - action: utter_demander_chatbot
+
+- story: prendre rendez-vous
+  steps:
+    - intent: prendre_rendez_vous
+    - action: utter_prendre_rendez_vous
+
+- story: demander fonctionnalites
+  steps:
+    - intent: demander_fonctionnalites
+    - action: utter_demander_fonctionnalites
+
+- story: demander support
+  steps:
+    - intent: demander_support
+    - action: utter_demander_support
+
+- story: demander contact
+  steps:
+    - intent: nous_contacter
+    - action: utter_nous_contacter
+
+- story: utilisateur heureux
+  steps:
+    - intent: heureux
+    - action: utter_heureux
+
+- story: conversation simple
+  steps:
+    - intent: saluer
+    - action: utter_saluer
+    - intent: demander_services
+    - action: utter_services
+    - intent: demander_prix
+    - action: utter_prix
+    - intent: demander_chatbot
+    - action: utter_demander_chatbot
+
+- story: fin de conversation
+  steps:
+    - intent: au_revoir
+    - action: utter_au_revoir
+
+
+
+- story: demander une demo
+  steps:
+    - intent: demander_demo
+    - action: utter_demo
+
+- story: demander delai
+  steps:
+    - intent: demander_delai
+    - action: utter_delai
+
+- story: integration whatsapp
+  steps:
+    - intent: demander_integration_whatsapp
+    - action: utter_integration_whatsapp
+
+- story: integration site
+  steps:
+    - intent: demander_integration_site
+    - action: utter_integration_site
+
+- story: remercier
+  steps:
+    - intent: remercier
+    - action: utter_remercier
+
+- story: questions
+  steps:
+    - intent: autres_questions
+    - action: utter_autres_questions
+
+- story: pas questions
+  steps:
+    - intent: question_termine
+    - action: utter_question_termine
