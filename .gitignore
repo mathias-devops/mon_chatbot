@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Rasa
+.rasa/cache/
+.rasa/models/
+.rasa/tmp/
+
+# Environments
+venv/
+.mon_botrasa/
+
+# IDE / Editor
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
