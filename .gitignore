@@ -15,4 +15,4 @@ models/
 *.tmp
 
 # Jetons et secrets
-*.env
+*.envmon_botrasa/
