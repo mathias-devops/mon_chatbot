@@ -1,0 +1,412 @@
+version: "3.1"
+
+nlu:
+- intent: saluer
+  examples: |
+    - bonjour
+    - salut
+    - hello
+    - coucou
+    - bonsoir
+    - salut à tous
+    - salut bot
+    - salut chatbot
+    - hey
+    - hey bot
+    - hey salut
+    - hi
+    - hi bot
+    - bonjour bot
+    - bonjour chatbot
+    - bonjour à vous
+    - bonjour assistant
+    - bonjour BotRoom
+    - salut BotRoom
+    - bonsoir bot
+    - bonsoir BotRoom
+    - bonjour comment ça va
+    - salut comment ça va
+    - bonjour comment allez-vous
+    - salut comment allez-vous
+    - bonjour je suis là
+    - salut je suis là
+    - bonjour assistant BotRoom
+    - coucou bot
+    - coucou chatbot
+    - coucou BotRoom
+    - hey BotRoom
+    - hello BotRoom
+    - hello assistant
+    - bonjour à tous
+    - salut tout le monde
+    - bonsoir tout le monde
+    - bonjour tout le monde
+    - salut l'équipe
+    - bonjour l'équipe
+    - coucou
+    - cc
+    - comment vous allez
+    
+- intent: demander_services
+  examples: |
+    - quels sont vos services
+    - quels sont vos services ?
+    - que proposez-vous
+    - que proposez-vous ?
+    - je veux connaitre vos services
+    - je veux connaître vos services
+    - vos services
+    - vos prestations
+    - services disponibles
+    - quels services proposez-vous
+    - pouvez-vous me dire vos services
+    - dites-moi vos services
+    - quelles sont vos prestations
+    - quelles sont vos offres
+    - quelles sont vos solutions
+    - quels types de services offrez-vous
+    - que faites-vous
+    - que fait votre entreprise
+    - que fait BotRoom
+    - quelles solutions propose BotRoom
+    - quels sont vos produits
+    - quelles sont vos activités
+    - présentez-moi vos services
+    - montrez-moi vos services
+    - j’aimerais voir vos services
+    - je veux voir vos services
+    - je veux savoir ce que vous faites
+    - je veux savoir ce que vous proposez
+    - quels sont les services de BotRoom
+    - quels sont vos domaines d'activité
+    - quelles solutions IA proposez-vous
+    - avez-vous des services
+    - dites-moi ce que vous proposez
+    - expliquez vos services
+    - je veux découvrir vos services
+    - je veux plus d’informations sur vos services
+
+- intent: demander_prix
+  examples: |
+    - combien ça coûte
+    - combien ça coûte ?
+    - vos prix
+    - vos prix ?
+    - tarifs
+    - quels sont vos tarifs
+    - je veux connaître le prix
+    - combien pour un chatbot
+    - combien pour un chatbot ?
+    - quel est le prix
+    - quels sont les prix
+    - combien coûte votre service
+    - combien coûte un chatbot
+    - combien coûte votre chatbot
+    - combien dois-je payer
+    - combien cela va me coûter
+    - quel est votre tarif
+    - quels sont vos tarifs
+    - donnez-moi vos prix
+    - pouvez-vous me dire le prix
+    - j’aimerais connaître vos tarifs
+    - je veux savoir le prix
+    - je veux savoir combien ça coûte
+    - combien pour créer un chatbot
+    - combien pour développer un chatbot
+    - prix chatbot
+    - tarif chatbot
+    - combien coûte un bot
+    - combien pour vos services
+    - prix de vos services
+    - tarif de vos services
+    - combien coûte votre solution
+    - combien coûte l'automatisation
+    - combien coûte un chatbot pour entreprise
+    - quel budget pour un chatbot
+    - quel est le coût d’un chatbot
+    - quel est le prix de votre chatbot
+
+- intent: demander_chatbot
+  examples: |
+    - je veux créer un chatbot
+    - créer un chatbot
+    - je souhaite un chatbot
+    - aide-moi à créer un chatbot
+    - construire un chatbot
+    - je veux développer un chatbot
+    - je veux avoir un chatbot
+    - comment créer un chatbot
+    - pouvez-vous créer un chatbot pour moi
+    - j’aimerais avoir un chatbot
+    - je veux un bot pour mon entreprise
+    - je souhaite un bot pour mon entreprise
+    - je veux automatiser mon service client
+    - je veux un chatbot pour mon site web
+    - je veux un chatbot WhatsApp
+    - créer un bot pour mon site web
+    - créer un bot pour mon entreprise
+    - j’ai besoin d’un chatbot
+    - pouvez-vous m’aider à créer un chatbot
+    - je veux un assistant virtuel
+    - je veux un assistant IA
+    - je veux automatiser mes conversations clients
+    - construire un bot pour mon entreprise
+    - je veux un bot intelligent
+    - je veux un chatbot interactif
+    - je veux un chatbot pour WhatsApp
+    - je veux un chatbot pour Facebook
+    - comment puis-je créer un chatbot
+    - créer un assistant virtuel
+    - créer un assistant IA
+    - je veux un bot qui répond automatiquement
+    - je souhaite un bot pour automatiser mes clients
+    - je veux un chatbot pour aider mes clients
+    - aide-moi à développer un chatbot
+    - je veux un chatbot pour mon service client
+    - je veux créer mon propre chatbot
+    - je veux un chatbot pour mon entreprise BotRoom
+    - je veux automatiser mes messages clients
+
+- intent: au_revoir
+  examples: |
+    - au revoir
+    - au revoir !
+    - bye
+    - bye bye
+    - à bientôt
+    - à plus tard
+    - bonne journée
+    - bonne soirée
+    - bonne nuit
+    - à plus
+    - à tout à l’heure
+    - à tout de suite
+    - à demain
+    - à la prochaine
+    - prenez soin de vous
+    - bon après-midi
+    - passez une bonne journée
+    - passez une bonne soirée
+    - je m’en vais
+    - je dois y aller
+    - je file
+    - je vous dis au revoir
+    - merci et au revoir
+    - merci, bonne journée
+    - merci, à bientôt
+    - salut tout le monde
+   
+- intent: nous_concter
+  examples: |
+    - comment vous contacter ?
+    - je veux vous joindre
+    - nous contacter
+    - pouvez-vous me contacter ?
+    - je veux parler à un conseiller
+    - je veux parler à un expert
+    - je veux parler à un agent
+    - je veux parler à quelqu’un
+    - puis-je parler à un conseiller ?
+    - puis-je parler à un expert ?
+    - puis-je parler à quelqu’un ?
+    - pouvez-vous me mettre en contact ?
+    - je veux un contact direct
+    - je veux être mis en contact
+    - je veux un conseiller
+    - je souhaite parler à un conseiller
+    - je souhaite parler à un expert
+    - mettez-moi en contact avec un expert
+    - mettez-moi en contact avec un conseiller
+    - je veux joindre un conseiller
+    - je veux joindre un expert
+    - je veux contacter votre équipe
+    - je souhaite contacter votre équipe
+    - je veux discuter avec un conseiller
+    - je veux discuter avec un expert
+    - je veux parler à un humain
+    - je veux une assistance directe
+    - pouvez-vous m’aider directement ?
+    - je souhaite assistance directe
+    - besoin d’un contact humain
+    - besoin d’aide directement
+    - parler à un agent
+    - contacter BotRoom
+    - joindre BotRoom
+    - parler à un représentant
+    - je souhaite parler à un représentant
+    - mettre en contact avec un expert
+    - mettre en contact avec un conseiller
+    - assistance humaine
+    - support direct
+    - support humain
+    - contacter un conseiller
+    - contacter un expert
+    - je veux votre support
+    - assistance immédiate
+    - joindre le support
+    - parler à l’équipe
+    - parler à votre équipe
+    - discussion directe avec un conseiller
+- intent: prendre_rendez_vous
+  examples: |
+    - je veux prendre rendez-vous
+    - prendre rendez-vous
+    - je souhaite un rendez-vous
+    - planifier un rendez-vous
+    - fixer un rendez-vous
+    - je veux réserver un rendez-vous
+    - réserver un rendez-vous
+    - pouvez-vous me donner un rendez-vous ?
+    - je voudrais un rendez-vous
+    - j’aimerais prendre rendez-vous
+    - je veux organiser un rendez-vous
+    - planifier un rendez-vous avec un conseiller
+    - planifier un rendez-vous avec un expert
+    - fixer un rendez-vous avec votre équipe
+    - prendre rendez-vous avec un conseiller
+    - prendre rendez-vous avec un expert
+    - programmer un rendez-vous
+    - je souhaite programmer un rendez-vous
+    - je veux programmer un rendez-vous
+    - j’aimerais programmer un rendez-vous
+    - réserver une rencontre
+    - planifier une rencontre
+    - fixer une rencontre
+    - je veux organiser une rencontre
+    - je souhaite rencontrer un conseiller
+    - je souhaite rencontrer un expert
+    - je veux rencontrer votre équipe
+    - prendre contact pour un rendez-vous
+    - demander un rendez-vous
+    - solliciter un rendez-vous
+    - organiser un rendez-vous avec BotRoom
+    - planifier un créneau avec un conseiller
+    - planifier un créneau avec un expert
+    - réserver un créneau avec votre équipe
+    - prendre rendez-vous rapidement
+    - fixer un rendez-vous immédiat
+    - planifier une session
+    - je veux planifier une session
+    - j’aimerais planifier une session
+    - planifier une réunion
+    - je veux planifier une réunion
+    - réserver une réunion
+    - organiser une réunion
+    - organiser un rendez-vous
+
+- intent: demander_fonctionnalites
+  examples: |
+    - que peut faire votre chatbot
+    - quelles fonctionnalités propose votre bot
+    - mon bot peut-il répondre automatiquement aux clients
+    - est-ce qu’il peut prendre des rendez-vous
+    - peut-il se connecter à mon site web
+    - peut-il se connecter à WhatsApp ou Messenger
+    - le chatbot peut-il analyser les données clients
+    - peut-il gérer des conversations complexes
+    - est-ce qu’il utilise l’intelligence artificielle
+    - peut-il envoyer des notifications ou rappels
+
+- intent: demander_support
+  examples: |
+    - que faire si le chatbot ne fonctionne pas
+    - est-ce que vous offrez un support technique
+    - puis-je modifier le chatbot après sa création
+    - combien de temps pour résoudre un problème
+    - est-ce que vous formez mon équipe pour utiliser le chatbot
+    - assistance technique
+    - support client
+
+
+- intent: heureux
+  examples: |
+    - je suis content
+    - je suis très content
+    - je suis satisfait
+    - je suis très satisfait
+    - super
+    - génial
+    - parfait
+    - excellent
+    - merci beaucoup
+    - merci infiniment
+    - merci
+    - je suis heureux
+    - trop bien
+    - top
+    - c’est super
+    - c’est parfait
+    - c’est génial
+    - je suis ravi
+    - je suis vraiment ravi
+    - je suis enchanté
+    - je suis impressionné
+    - bravo
+    - félicitations
+    - je vous remercie
+    - merci pour votre aide
+    - merci pour le support
+    - merci pour tout
+
+  
+- intent: remercier
+  examples: |
+    - merci
+    - merci beaucoup
+    - merci pour votre aide
+    - je vous remercie
+    - merci bien
+    - c'est gentil merci
+
+- intent: demander_demo
+  examples: |
+    - je veux une démo
+    - pouvez-vous me montrer une démo
+    - je veux voir comment fonctionne le chatbot
+    - est-ce possible d'avoir une démonstration
+    - je veux tester votre chatbot
+
+- intent: demander_delai
+  examples: |
+    - combien de temps pour créer un chatbot
+    - quel est le délai de création
+    - combien de jours pour développer un chatbot
+    - en combien de temps mon chatbot sera prêt
+    - combien de temps dure le développement
+
+- intent: demander_integration_whatsapp
+  examples: |
+    - peut-on connecter le chatbot à whatsapp
+    - votre chatbot fonctionne sur whatsapp
+    - pouvez-vous créer un chatbot whatsapp
+    - je veux un chatbot pour whatsapp
+    - est-ce que le bot marche sur whatsapp
+
+- intent: demander_integration_site
+  examples: |
+    - peut-on mettre le chatbot sur mon site
+    - je veux un chatbot pour mon site web
+    - est-ce possible d'intégrer le bot sur un site
+    - comment installer le chatbot sur mon site
+    - le chatbot fonctionne sur un site web
+
+
+- intent: autres_questions
+  examples: |
+    - Oui
+    - oui, j'ai une questions
+    - j'ai une autre questions
+    - j'ai une question à vous poser
+    - j'ai une question à te poser
+
+- intent: question_termine
+  examples: |
+    - non
+    - Non
+    - non non
+    - non, je n'ai plus de questions
+    - c'est bon pour le moment
+    -  non, c'était juste....
+    - non, c'est bon
+    - non merci
+    
