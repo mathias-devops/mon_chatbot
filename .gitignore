@@ -1,20 +1,60 @@
+# =============================
 # Environnement virtuel
+# =============================
 mon_botrasa/
 
-# Dossiers temporaires de Rasa
+# =============================
+# Rasa
+# =============================
 .rasa/cache/
 .rasa/models/
 .rasa/__pycache__/
 
+# =============================
 # Python
+# =============================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
 
-# VSCode
+# =============================
+# Jupyter Notebook
+# =============================
+.ipynb_checkpoints/
+
+# =============================
+# IDEs
+# =============================
 .vscode/
+.idea/
 
-# Fichiers système
+# =============================
+# Système
+# =============================
 .DS_Store
 Thumbs.db
+
+# =============================
+# Git Large File Storage (Git LFS) - éviter fichiers volumineux
+# =============================
+*.so
+*.dll
+*.dylib
+*.zip
+*.tar.gz
+*.whl
+*.dat
+*.bin
+
+# =============================
+# Autres fichiers temporaires
+# =============================
+*.tmp
+*.bak
+*.swp
