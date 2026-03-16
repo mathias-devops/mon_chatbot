@@ -6,9 +6,8 @@ mon_botrasa/
 # =============================
 # Rasa
 # =============================
-.rasa/cache/
-.rasa/models/
-.rasa/__pycache__/
+.rasa/
+models/
 
 # =============================
 # Python
@@ -21,18 +20,22 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+
+# =============================
+# Logs
+# =============================
 *.log
 
 # =============================
-# Jupyter Notebook
-# =============================
-.ipynb_checkpoints/
-
-# =============================
-# IDEs
+# IDE
 # =============================
 .vscode/
 .idea/
+
+# =============================
+# Jupyter
+# =============================
+.ipynb_checkpoints/
 
 # =============================
 # Système
@@ -41,19 +44,7 @@ build/
 Thumbs.db
 
 # =============================
-# Git Large File Storage (Git LFS) - éviter fichiers volumineux
-# =============================
-*.so
-*.dll
-*.dylib
-*.zip
-*.tar.gz
-*.whl
-*.dat
-*.bin
-
-# =============================
-# Autres fichiers temporaires
+# fichiers temporaires
 # =============================
 *.tmp
 *.bak

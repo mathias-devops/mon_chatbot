@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: rasa-server
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: rasa run --enable-api --cors "*" --port $PORT
+    autoDeploy: true
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: 1
+
+  - type: worker
+    name: actions-server
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: rasa run actions --port 5055
+    autoDeploy: true
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: 1
