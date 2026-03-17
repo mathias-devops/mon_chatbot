@@ -1,2 +1,5 @@
 rasa==3.6.20
-rasa-sdk==3.6.2
+rasa-sdk==3.6.0
+numpy>=1.21.0,<1.24.0
+scipy>=1.7.3,<1.11.0
+typing-extensions>=4.0.0,<5.0.0

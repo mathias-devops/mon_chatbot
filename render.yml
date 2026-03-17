@@ -1,22 +1,14 @@
 services:
   - type: web
-    name: rasa-server
+    name: mon-chatbot
     env: python
     plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: rasa run --enable-api --cors "*" --port $PORT
-    autoDeploy: true
-    envVars:
-      - key: PYTHONUNBUFFERED
-        value: 1
+    region: oregon  # ou ton choix
+    buildCommand: |
+      python3 -m pip install --upgrade pip
+      pip install -r requirements.txt
+    startCommand: |
+      rasa run --enable-api --cors "*" --port 5005 --host 0.0.0.0
 
-  - type: worker
-    name: actions-server
-    env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: rasa run actions --port 5055
-    autoDeploy: true
-    envVars:
-      - key: PYTHONUNBUFFERED
-        value: 1
+  - key: PYTHON_VERSION
+    value: 3.9.18
