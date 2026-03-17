@@ -1,4 +1,5 @@
 packaging==26.0
 
-rasa
-rasa-sdk
+rasa==3.6.20
+rasa-sdk==3.6.2
+absl-py==1.4.0
