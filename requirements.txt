@@ -1,14 +1,9 @@
 # ================================
-# requirements.txt minimal et stable
-# pour Rasa 3.6.20
+# Minimal requirements for Rasa (Render safe)
 # ================================
 
-# Core
 rasa==3.6.20
-rasa-sdk>=3.6.2,<3.7
+rasa-sdk==3.6.2
 
-# Utils utiles (sans conflit)
-python-dotenv>=0.21.0,<0.22
-requests>=2.28.0,<3.0
-colorama>=0.4.6,<0.5
-tqdm>=4.65.0,<5.0
+python-dotenv
+requests
