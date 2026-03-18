@@ -86,3 +86,9 @@ rules:
     steps:
     - intent: question_termine
     - action: utter_question_termine
+
+
+  - rule: un utilisateur qui exprime ses mecontentement
+    steps:
+    - intent: mecontent
+    - action: utter_mecontent

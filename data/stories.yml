@@ -112,3 +112,8 @@ stories:
   steps:
     - intent: question_termine
     - action: utter_question_termine
+
+- story: pas content
+  steps:
+    - intent: mecontent
+    - action: utter_mecontent

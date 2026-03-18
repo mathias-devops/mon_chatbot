@@ -19,6 +19,7 @@ intents:
   - aide
   - autres_questions
   - question_termine
+  - mecontent
 
 responses:
 
@@ -26,7 +27,7 @@ responses:
     - text: |
         Bonjour 👋 et bienvenue !
 
-        Je suis l’assistant virtuel de **BotRoom** 🤖.  
+        Je suis l’assistant virtuel de **BotRoom** .  
         Mon rôle est de répondre à vos questions et de vous aider à découvrir comment nos **chatbots intelligents peuvent automatiser votre relation client et vous faire gagner du temps**.
 
         Si une question nécessite l'intervention d'un conseiller humain, je pourrai également vous mettre en contact avec notre équipe 😊
@@ -310,3 +311,9 @@ responses:
         Si vous avez d'autres questions à l’avenir concernant **les chatbots ou l’automatisation**, n’hésitez pas à revenir vers nous.
 
         Passez une excellente journée 👋
+
+
+  
+  utter_mecontent:
+    - text: |
+        Nous sommes deçu d'apprendre cela. Veuillez conctacter un membre de l'équipe qui pourra mieux écouter et traiter votre plainte.

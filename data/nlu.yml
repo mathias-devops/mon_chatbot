@@ -410,3 +410,9 @@ nlu:
     - non, c'est bon
     - non merci
     
+
+  
+- intent: mecontent
+  examples: |
+     - Je suis deçu de votre service
+     - je suis découragé de votre vous
