@@ -1,10 +1,4 @@
-# ================================
-# Minimal requirements for Rasa (Render safe)
-# ================================
-
 rasa==3.6.20
 rasa-sdk==3.6.2
-
-python-dotenv
-requests
-.....
+randomname==0.1.5
+packaging>=20.0,<21.0

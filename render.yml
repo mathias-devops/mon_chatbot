@@ -2,17 +2,15 @@ services:
   - type: web
     name: mon_chatbot
     env: python
-<<<<<<< HEAD
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: rasa run --enable-api --host 0.0.0.0 --port 10000
     envVars:
       - key: PYTHON_VERSION
         value: 3.9.25
-=======
     buildCommand: "pip install -r requirements.txt"
     startCommand: "rasa run --enable-api --host 0.0.0.0 --port 10000"
     envVars:
       - key: PYTHON_VERSION
         value: 3.9.25
->>>>>>> a4a805f (Mise à jour du chatbot (ameliorations + corrections))
+
