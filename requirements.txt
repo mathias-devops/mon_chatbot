@@ -1,8 +1,5 @@
 rasa==3.6.20
 rasa-sdk==3.6.2
 randomname==0.1.5
-<<<<<<< HEAD
 packaging>=20.0,<21.0
-=======
 packaging>=20.0,<21.0
->>>>>>> 64959ea3b849ebd4c02c93e6b3af187cd4e40183
