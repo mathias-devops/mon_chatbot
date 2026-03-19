@@ -1,3 +1,5 @@
 rasa==3.6.20
 rasa-sdk==3.6.2
 packaging>=20.0,<21.0
+setuptools<67.0
+randomname==0.1.5
