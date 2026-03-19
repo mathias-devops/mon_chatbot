@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+<meta charset="UTF-8">
+<title>BotRoom Assistant</title>
+
+<style>
+
+/* icone du chatbot */
+.rw-launcher {
+  background: linear-gradient(135deg,#0066ff,#00c6ff) !important;
+  border-radius: 50% !important;
+  width: 65px !important;
+  height: 65px !important;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.3);
+}
+
+/* animation */
+.rw-launcher:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+/* header */
+.rw-header {
+  background: linear-gradient(135deg,#0066ff,#00c6ff) !important;
+  font-size: 18px;
+}
+
+/* messages utilisateur */
+.rw-client {
+  background: #0066ff !important;
+}
+
+/* position widget */
+.rw-widget-container {
+  bottom: 25px !important;
+  right: 25px !important;
+}
+
+/* supprimer avatar */
+.rw-avatar{
+  display:none !important;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<script>
+
+(function () {
+
+let script = document.createElement("script");
+
+script.src = "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.1/lib/index.js";
+
+script.async = true;
+
+script.onload = function () {
+
+
+// 🔥 supprimer l'historique du chat
+localStorage.clear();
+
+
+// génération d'un nouvel ID utilisateur
+const sender_id = "user_" + Math.random().toString(36).substring(2,10);
+
+
+window.WebChat.default({
+
+initPayload: "/session_start",
+
+socketUrl: "http://localhost:5005",
+socketPath: "/socket.io/",
+
+sender_id: sender_id,
+
+title: "Assistant BotRoom 🤖",
+subtitle: "Nous répondons instantanément",
+
+showFullScreenButton: true,
+showMessageDate: true,
+openLauncher: true,
+
+openLauncherImage:
+"https://cdn-icons-png.flaticon.com/512/733/733585.png",
+
+profileAvatar:
+"https://cdn-icons-png.flaticon.com/512/4712/4712109.png",
+
+params: {
+storage: "none"
+}
+
+}, null);
+
+
+/* ouverture automatique du chat */
+
+setTimeout(function(){
+
+let btn = document.querySelector(".rw-launcher");
+
+if(btn){
+btn.click();
+}
+
+},1500);
+
+};
+
+document.head.appendChild(script);
+
+})();
+
+</script>
+
+</body>
+</html>
