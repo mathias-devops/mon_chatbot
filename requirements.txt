@@ -5,4 +5,4 @@ setuptools<67.0
 randomname==0.1.5
 flask
 requests
-gunicorn
+gunicornsqlalchemy<2.0
