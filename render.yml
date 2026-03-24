@@ -3,14 +3,8 @@ services:
     name: mon_chatbot
     env: python
     plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: rasa run --enable-api --host 0.0.0.0 --port 10000
+    buildCommand: pip install -r requirements.txt && rasa train
+    startCommand: rasa run --enable-api --host 0.0.0.0 --port 10000 --cors "*"
     envVars:
       - key: PYTHON_VERSION
-        value: 3.9.25
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "rasa run --enable-api --host 0.0.0.0 --port 10000"
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.9.25
-
+        value: "3.9"
